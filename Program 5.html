@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flash">
+    <div class="containerssss">
+        </br></br>
+        <h3><label for="num1"> ENTER 1st </label></h3><br />
+        <input type="number" id='num1' /><br /></br>
+        <h3><label class="num2" for="q2">ENTER 2nd</label></h3><br />
+        <input type="number" id='num2' /><br /></br>
+        <h3><label class="num3" for="q3">ENTER 3rd</label></h3><br />
+        <input type="number" id='num3' /><br /></br>
+        <h3><label for="num4">ENTER 4th</label></h3><br />
+        <input type="number" id='num4' /><br /></br>
+        <h3><label for="num5">ENTER 5th</label></h3><br />
+        <input type="number" id='num5' /><br /></br></br>
+        <button class="clickssss" onclick="processNumbers()">PROCESS</button></br></br></br>
+        <h2>
+            <p class="faiz" id='result'> Result:</p>
+        </h2>
+    </div>
+
+    <!-- "Back" link positioned at the top-left corner -->
+    <div class="back-buttons">
+        <a href="#" onclick="history.back();">Back</a>
+    </div>
+
+    <script>
+        function processNumbers() {
+            var A = parseFloat(document.getElementById('num1').value);
+            var B = parseFloat(document.getElementById('num2').value);
+            var C = parseFloat(document.getElementById('num3').value);
+            var D = parseFloat(document.getElementById('num4').value);
+            var E = parseFloat(document.getElementById('num5').value);
+
+            if (C > A) {
+                var result = C * A * B * D * E;
+                document.getElementById('result').innerHTML = 'Result: ' + result;
+            } else if (A > B) {
+                var result = D * E;
+                document.getElementById('result').innerHTML = 'Result: ' + result;
+            } else {
+                document.getElementById('result').innerHTML = 'Bye';
+            }
+        }
+    </script>
+</body>
+
+</html>
