@@ -1,0 +1,529 @@
+/*===== Google Fonts =====*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P";
+}
+
+.clark {
+    background-color: #5363f0;
+    display: flex;
+    justify-content: center;
+    background-image: url('retro.jpg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+.Q2 {
+    color: rgb(255, 255, 255);
+}
+
+.Q3 {
+    color: rgb(255, 252, 252);
+}
+
+.kamen {
+    color: rgb(5, 5, 5);
+}
+
+.rider {
+    color: rgb(5, 5, 5);
+}
+
+.decade {
+    color: #fff;
+}
+
+.container {
+    width: 300px;
+    height: 380px;
+    margin-top: 180px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(138, 43, 226, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    /* Apply blur to the backdrop */
+}
+
+
+.containers {
+    border-radius: 8px;
+    background-color: rgba(54, 16, 90, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    /* Apply the backdrop-filter for the frosted glass effect */
+    backdrop-filter: blur(10px);
+    /* Adjust the blur amount as needed */
+}
+
+
+.superman {
+    background-color: #5363f0;
+    display: flex;
+    justify-content: center;
+    background-image: url('vice.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.click {
+    /* Background color */
+    background-color: #353b41;
+    /* Text color */
+    color: #fff;
+    /* Padding - adjust to change the button size */
+    padding: 10px 20px;
+    /* Border radius for rounded corners */
+    border-radius: 5px;
+    /* Border style and color */
+    border: none;
+    /* Box shadow for a subtle shadow effect */
+    box-shadow: 2px 2px 4px rgba(236, 117, 247, 0.2);
+    /* Add a hover effect */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    height: 50px;
+}
+
+/* Add a hover effect for the button */
+.click:hover {
+    background-color: #ef6262;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Increase the width and height of number input boxes */
+input[type="number"] {
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    /* You can also add padding and other styles if desired */
+}
+
+.clicks {
+    /* Background color */
+    background-color: #353b41;
+    /* Text color */
+    color: #fff;
+    /* Padding - adjust to change the button size */
+    padding: 10px 20px;
+    /* Border radius for rounded corners */
+    border-radius: 5px;
+    /* Border style and color */
+    border: none;
+    /* Box shadow for a subtle shadow effect */
+    box-shadow: 2px 2px 4px rgba(236, 117, 247, 0.2);
+    /* Add a hover effect */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    height: 50px;
+}
+
+/* Add a hover effect for the button */
+.clicks:hover {
+    background-color: #8BE8E5;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Increase the width and height of number input boxes */
+input[type="number"] {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    /* You can also add padding and other styles if desired */
+}
+
+.batman {
+    background-color: #5363f0;
+    display: flex;
+    justify-content: center;
+    background-image: url('vice1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerss {
+    border-radius: 8px;
+    background-color: rgba(54, 16, 90, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    /* Apply the backdrop-filter for the frosted glass effect */
+    backdrop-filter: blur(10px);
+    /* Adjust the blur amount as needed */
+}
+
+.clickss {
+    /* Background color */
+    background-color: #353b41;
+    /* Text color */
+    color: #fff;
+    /* Padding - adjust to change the button size */
+    padding: 10px 20px;
+    /* Border radius for rounded corners */
+    border-radius: 5px;
+    /* Border style and color */
+    border: none;
+    /* Box shadow for a subtle shadow effect */
+    box-shadow: 2px 2px 4px rgba(236, 117, 247, 0.2);
+    /* Add a hover effect */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    height: 50px;
+}
+
+/* Add a hover effect for the button */
+.clickss:hover {
+    background-color: #8ba1e8;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Increase the width and height of number input boxes */
+input[type="number"] {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    /* You can also add padding and other styles if desired */
+}
+
+.blade {
+    color: #fff;
+}
+
+.bruce {
+    background-color: #5363f0;
+    display: flex;
+    justify-content: center;
+    background-image: url('jujutsu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containersss {
+    border-radius: 8px;
+    background-color: rgba(54, 16, 90, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    /* Apply the backdrop-filter for the frosted glass effect */
+    backdrop-filter: blur(10px);
+    /* Adjust the blur amount as needed */
+}
+
+.clicksss {
+    /* Background color */
+    background-color: #353b41;
+    /* Text color */
+    color: #fff;
+    /* Padding - adjust to change the button size */
+    padding: 10px 20px;
+    /* Border radius for rounded corners */
+    border-radius: 5px;
+    /* Border style and color */
+    border: none;
+    /* Box shadow for a subtle shadow effect */
+    box-shadow: 2px 2px 4px rgba(236, 117, 247, 0.2);
+    /* Add a hover effect */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    height: 50px;
+}
+
+/* Add a hover effect for the button */
+.clicksss:hover {
+    background-color: #F86F03;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Increase the width and height of number input boxes */
+input[type="number"] {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    /* You can also add padding and other styles if desired */
+}
+
+.kuuga {
+    color: #ef6262;
+}
+
+.flash {
+    background-color: #5363f0;
+    display: flex;
+    justify-content: center;
+    background-image: url('tekken_8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerssss {
+    border-radius: 8px;
+    background-color: rgba(197, 189, 204, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 400px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    /* Apply the backdrop-filter for the frosted glass effect */
+    backdrop-filter: blur(10px);
+    /* Adjust the blur amount as needed */
+    margin-right: 60%;
+}
+
+.clickssss {
+    /* Background color */
+    background-color: #353b41;
+    /* Text color */
+    color: #fff;
+    /* Padding - adjust to change the button size */
+    padding: 10px 20px;
+    /* Border radius for rounded corners */
+    border-radius: 5px;
+    /* Border style and color */
+    border: none;
+    /* Box shadow for a subtle shadow effect */
+    box-shadow: 2px 2px 4px rgba(236, 117, 247, 0.2);
+    /* Add a hover effect */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    height: 50px;
+}
+
+/* Add a hover effect for the button */
+.clickssss:hover {
+    background-color: #f80361;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Increase the width and height of number input boxes */
+input[type="number"] {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    /* You can also add padding and other styles if desired */
+}
+
+.navbar {
+    top: 0;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    /* background: linear-gradient(80deg, #35A29F 50%, #252424 50%); */
+    padding: 25px;
+    border-bottom: 1px solid #272727;
+    box-shadow: 0px 4px 20px #000;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgba(27, 17, 43, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Apply the backdrop-filter for the frosted glass effect */
+    backdrop-filter: blur(10px);
+    /* Adjust the blur amount as needed */
+    color: #fff;
+}
+
+.navbar .logo a {
+    font-size: 24px;
+    color: var(--black-900);
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 450px;
+}
+
+.navbar .logo a span {
+    color: var(--main-color);
+}
+
+.navbar .menu .nav-item {
+    display: inline-block;
+    position: relative;
+    margin-left: 36px;
+}
+
+.navbar .menu .nav-item .nav-link {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.navbar .nav-item .nav-link span {
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-out 0s;
+}
+
+.navbar .nav-item .nav-link span::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    left: 110%;
+}
+
+.navbar .nav-item .nav-link span::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    left: 140%;
+}
+
+.navbar .nav-item>.nav-link.active span,
+.navbar .nav-item:hover>.nav-link span {
+    opacity: 1;
+    visibility: visible;
+    width: 60px;
+}
+
+.navbar .nav-item>.nav-link.active span::before,
+.navbar .nav-item:hover>.nav-link span::before {
+    width: 20%;
+}
+
+.navbar .nav-item>.nav-link.active span::after,
+.navbar .nav-item:hover>.nav-link span::after {
+    width: 15%;
+}
+
+.barry {
+    background-color: #eaeaeb;
+    display: flex;
+    justify-content: center;
+    background-image: url('tekken8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-item {
+    /* Background color */
+    background-color: #1b145c;
+    /* Text color */
+    color: #fff;
+    /* Padding - adjust to change the button size */
+    padding: 10px 20px;
+    /* Border radius for rounded corners */
+    border-radius: 5px;
+    /* Border style and color */
+    border: none;
+    /* Box shadow for a subtle shadow effect */
+    box-shadow: 2px 2px 4px rgba(236, 117, 247, 0.2);
+    /* Add a hover effect */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    height: 50px;
+}
+
+/* Add a hover effect for the button */
+.nav-item:hover {
+    background-color: #e0052a;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(207, 163, 163, 0.774);
+}
+
+/* Increase the width and height of number input boxes */
+input[type="nav-tem"] {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    /* You can also add padding and other styles if desired */
+}
+/* Style for the back button */
+.back-button {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+}
+
+/* Hover effect for the back button */
+.back-button a {
+    text-decoration: none;
+    color: #ffffff; /* Change the color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+    padding: 10px 20px; /* Add padding to the button for spacing */
+    border: 1px solid #333; /* Add a border to the button */
+    border-radius: 5px; /* Add rounded corners to the button */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a box shadow to the button */
+}
+
+.back-buttons a:hover {
+    color: #007bff; /* Change to your desired hover color */
+    box-shadow: 4px 4px 8px rgba(252, 251, 251, 0.5); /* Increase the box shadow on hover */
+}
+/* Style for the back button */
+.back-buttons {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+}
+
+/* Hover effect for the back button */
+.back-buttons a {
+    text-decoration: none;
+    color: #ffffff; /* Change the color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+    padding: 10px 20px; /* Add padding to the button for spacing */
+    border: 1px solid #f0e1e1; /* Add a border to the button */
+    border-radius: 5px; /* Add rounded corners to the button */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a box shadow to the button */
+}
+
+.back-buttons a:hover {
+    color: #007bff; /* Change to your desired hover color */
+    box-shadow: 4px 4px 8px rgba(252, 251, 251, 0.5); /* Increase the box shadow on hover */
+}
+
+

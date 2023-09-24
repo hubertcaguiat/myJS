@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="superman">
+    <div class="container">
+        </br>
+        <label for="num1">ENTER FIRST</label></br></br>
+        <input type="number" id='num1' /><br /></br></br>
+
+        <label for="num2">ENTER SECOND</label></br></br>
+        <input type="number" id='num2' /></br></br></br>
+
+        <button class="clicks" onclick="addTwoNums()">COMPUTE</button></br></br></br>
+        <h3>
+            <p class="decade" id='result'> Result:</p>
+        </h3>
+    </div>
+
+    <!-- "Back" link positioned at the top-left corner -->
+    <div class="back-button">
+        <a href="#" onclick="history.back();">Back</a>
+    </div>
+
+
+    <script>
+        function addTwoNums() {
+            var A = parseFloat(document.getElementById('num1').value);
+            var B = parseFloat(document.getElementById('num2').value);
+            var result = A + B;
+            document.getElementById('result').innerHTML = '<u>' + result + '</u>';
+        }
+
+    </script>
+
+</body>
+
+</html>
